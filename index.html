@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Connection Overflow</title>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            input{
+                width: 100%;
+                padding:5px;
+                margin-bottom: 5px;
+                border:none;
+                border-bottom: solid 1px gray;
+            }
+            button{
+                width: 100%;
+                color:white;
+                background: gray;
+                border:none;
+                border-radius: 5px;
+                padding: 5px;
+            }
+
+            #listaataque{
+                padding: 0px;
+                width: 100%;
+                list-style: none;
+                margin: 0px;
+            }
+
+            #listaataque li{
+                width: 100%;
+                border: 0px solid rgba(123, 123, 123, 0.498039);
+                box-shadow: rgba(0,0,0,0.2) 0px 1px 2px 0px;
+                padding: 10px;
+
+            }
+        </style>
+    </head>
+    <body>
+        <input type="text" id="ipataque" placeholder="Link para atacar">
+        <input type="number" id="numataque" min="0" placeholder="Coloque o número de ataques">
+        <button type="button"id="buttonataque">Enviar</button>
+        <b id="count"></b>
+        <br><br>
+        <ul id="listaataque">
+            <li>2</li>
+        </ul>
+    </body>
+    <script src="index.js"></script>
+</html>
